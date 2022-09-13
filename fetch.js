@@ -7,7 +7,7 @@ const displayPhotos = (photos) =>{
     const displayContainer = document.getElementById("display-container");
     photos = photos.slice(0, 20);
     photos.forEach(element => {
-        console.log(element);
+        // console.log(element);
         const div = document.createElement('div');
         div.classList.add('col');
         div.innerHTML = `
